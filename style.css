@@ -32,3 +32,33 @@
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
 }
+
+.button-bar {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 12px;
+    background-color: lightseagreen;
+}
+
+.win-banner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+    transform: translate(-50%, -50%);
+    min-width: 60%;
+    min-height: 20%;
+    background-color: white;
+    border: 3px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#start-reset {
+    border-radius: 6px;
+    font-weight: bolder;
+    font-size: 30px;
+}
